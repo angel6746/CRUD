@@ -3,9 +3,9 @@
 
 class Database {
     private static $host = "localhost";
-    private static $dbname = "db_crud_pdo";
-    private static $username = "root";
-    private static $password = "";
+    private static $dbname = "CRUD_PRACTICA";
+    private static $username = "angel6746";
+    private static $password = "Crudpractica1";
     private static $conn;
 
     public static function connect() {
