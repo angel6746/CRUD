@@ -1,6 +1,6 @@
 <?php
 
-// DAL: Database.php
+
 class Database {
     private static $host = "localhost";
     private static $dbname = "db_crud_pdo";
@@ -124,7 +124,7 @@ $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </div>
 
     <footer class="footer">
-        <p>&copy; 2025 CRUD de Usuarios. Todos los derechos reservados.</p>
+        <p>&copy; CRUD</p>
     </footer>
 
     <script>
